@@ -1,0 +1,4 @@
+@import './variables';
+@mixin change-colour($color){
+    background-color: $color;
+}

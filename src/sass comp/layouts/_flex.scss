@@ -1,0 +1,25 @@
+@import '../abstracts/variables';
+.flex{
+    display: flex;
+    &-1--2{
+        display: flex;
+        gap: 2rem;
+        margin: 2rem;
+        color: $White;
+    }
+    &--column{
+       
+        flex-direction: column;
+        text-transform: uppercase;
+    }
+    &--3{
+        gap: 1rem;
+    }
+    &--verticalcenter{
+        align-items: center;
+        // justify-content: center
+    }
+    &--space__between{
+        justify-content: space-between;
+    }
+}

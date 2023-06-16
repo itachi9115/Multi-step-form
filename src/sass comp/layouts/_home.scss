@@ -1,0 +1,39 @@
+@import'../abstracts/variables';
+
+
+body{
+    position: relative;
+    height: 100%;
+}
+
+.container{
+  
+   
+    height: 100vh;
+    background: $Lighblue;
+  
+}
+.cardCover{
+ 
+    //   justify-content: space-between;
+    //   align-items: center;
+        width:80rem;
+        height:50rem;
+        background-color: white;
+        background: $White;
+       box-shadow: 11px 10px 23px -18px rgba(0,0,0,0.6);
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+        transform: translate(-50%,-50%);
+        padding: 8px;
+    }
+    
+    .Cover{
+        display:flex;
+        gap: 10rem;
+        flex-direction: row;
+        position: relative;
+    }

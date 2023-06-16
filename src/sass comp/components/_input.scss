@@ -1,0 +1,28 @@
+@import '../abstracts/variables';
+input{
+    padding: 1.2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1.2px solid  $Marineblue ;
+   
+}
+.pLabel{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'ubuntu';
+    color: $Marineblue;
+    letter-spacing: -0.2px;
+}
+.password--container{
+    position: relative;
+}
+.password--icons{
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    transform: translate(-95%,-50%);
+ stroke: $Lightgray;
+ fill: $Marineblue;
+ 
+    
+}

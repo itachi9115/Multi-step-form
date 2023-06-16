@@ -1,0 +1,18 @@
+@import '../abstracts/variables';
+
+.perkscard--container{
+    border: 2px solid $Coolgray;
+    border-radius: 6px;
+    padding:1.5rem;
+    position: relative;
+
+
+}
+.checkmark--container{
+    width: 18px;
+    height: 18px;
+    border: 2px solid $Coolgray;
+    padding: 2px;
+    margin-right: 2rem;
+  
+}
